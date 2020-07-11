@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public bool canMove;
-    
-    void Start() 
-    {
-        this.canMove = true;
-    }
+    public float moveSpeed= 5f;
+
+    public Rigidbody2D rb;
+
+    Vector3 movement;
 
     // Update is called once per frame
     void Update()
     {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
     }
 
-    void FixedUpdate() 
+    private void FixedUpdate()
     {
-        
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
