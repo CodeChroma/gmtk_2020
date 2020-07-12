@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5068802904961291093}
   - component: {fileID: 8179172889423408224}
   - component: {fileID: -7571855213272857541}
+  - component: {fileID: -6386718961102574325}
   m_Layer: 0
   m_Name: big_light_blue_laser
   m_TagString: Untagged
@@ -228,3 +229,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6386718961102574325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719441390159191795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae65fcfb5b143e844ace747779f6ca93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 8100473297960322571, guid: 56286fe365900df4a993fe99f3b58dc0,
+    type: 3}
+  source: {fileID: 34467518756303750, guid: 527673afd1ca6ba478526d55fd461589, type: 3}
