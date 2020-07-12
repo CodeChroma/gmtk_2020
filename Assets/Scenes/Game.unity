@@ -326,7 +326,6 @@ GameObject:
   - component: {fileID: 1709159406}
   - component: {fileID: 1709159405}
   - component: {fileID: 1709159404}
-  - component: {fileID: 1709159403}
   - component: {fileID: 1709159407}
   - component: {fileID: 1709159408}
   - component: {fileID: 1709159409}
@@ -337,18 +336,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1709159403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709159402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7e55bf26f787c4cad014930c684435, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1709159404
 Animator:
   serializedVersion: 3
@@ -447,7 +434,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -483,6 +470,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 148342793}
-  shotPrefab: {fileID: 5126477826147501060, guid: 86cf27a5255f0c14f9d4c393ed1e1648,
-    type: 3}
+  laserPrefabs:
+  - {fileID: 7719441390159191795, guid: c4c68e9528f5f644c9810bc7b238f8a8, type: 3}
+  - {fileID: 5126477826147501060, guid: 86cf27a5255f0c14f9d4c393ed1e1648, type: 3}
+  - {fileID: 1776959529460279785, guid: 8c7adc61ada9ace4f880ad6626e37aa0, type: 3}
+  - {fileID: 7676258582117251746, guid: 0269b1ea531c6744486c639449983b06, type: 3}
+  lasers: []
   shotForce: 20
