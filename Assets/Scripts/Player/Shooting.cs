@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
-    public GameObject shotPrefab; // TODO: ADD GUNSHOT PREFAB
+    public GameObject shotPrefab;
 
     public float shotForce = 20f;
 
