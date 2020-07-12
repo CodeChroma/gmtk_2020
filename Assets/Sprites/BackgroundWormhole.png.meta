@@ -15290,6 +15290,33 @@ TextureImporter:
   - first:
       213: 8848918078929794965
     second: Wurmhole_5095
+  - first:
+      213: 5253053345125512615
+    second: BackgroundWormhole_0
+  - first:
+      213: 1186269066466288260
+    second: BackgroundWormhole_1
+  - first:
+      213: -6549867937829080752
+    second: BackgroundWormhole_2
+  - first:
+      213: 6480255905757904191
+    second: BackgroundWormhole_3
+  - first:
+      213: -6020327360758245216
+    second: BackgroundWormhole_4
+  - first:
+      213: -6547121463501557213
+    second: BackgroundWormhole_5
+  - first:
+      213: -4659205899931766998
+    second: BackgroundWormhole_6
+  - first:
+      213: -8360052846174453746
+    second: BackgroundWormhole_7
+  - first:
+      213: -4801558008492139674
+    second: BackgroundWormhole_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -15375,7 +15402,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wurmhole_0
+      name: BackgroundWormhole_0
       rect:
         serializedVersion: 2
         x: 0
@@ -15389,14 +15416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3179afa55e0b0d840800000000000000
-      internalID: 5246888065006999315
+      spriteID: 7a5326e7f2896e840800000000000000
+      internalID: 5253053345125512615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_1
+      name: BackgroundWormhole_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -15410,14 +15437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32ab7b8859ae4d80800000000000000
-      internalID: -8264482068415929797
+      spriteID: 482e1ca4e69767010800000000000000
+      internalID: 1186269066466288260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_2
+      name: BackgroundWormhole_2
       rect:
         serializedVersion: 2
         x: 3200
@@ -15431,14 +15458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed09b49bb74cf9d80800000000000000
-      internalID: -8241652757395959586
+      spriteID: 0513aff20d13a15a0800000000000000
+      internalID: -6549867937829080752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_3
+      name: BackgroundWormhole_3
       rect:
         serializedVersion: 2
         x: 0
@@ -15452,14 +15479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7d92ed32013e310800000000000000
-      internalID: 1433006852671133624
+      spriteID: f3db354996e7ee950800000000000000
+      internalID: 6480255905757904191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_4
+      name: BackgroundWormhole_4
       rect:
         serializedVersion: 2
         x: 1600
@@ -15473,14 +15500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 420e75e6d40905f70800000000000000
-      internalID: 9173991103191834660
+      spriteID: 0a890769920837ca0800000000000000
+      internalID: -6020327360758245216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_5
+      name: BackgroundWormhole_5
       rect:
         serializedVersion: 2
         x: 3200
@@ -15494,14 +15521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffab347f95a1cb430800000000000000
-      internalID: 3799941159296678655
+      spriteID: 32277a297b3f325a0800000000000000
+      internalID: -6547121463501557213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_6
+      name: BackgroundWormhole_6
       rect:
         serializedVersion: 2
         x: 0
@@ -15515,14 +15542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b35999a06372a40800000000000000
-      internalID: 5343298902052649836
+      spriteID: a2fa9276bec275fb0800000000000000
+      internalID: -4659205899931766998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_7
+      name: BackgroundWormhole_7
       rect:
         serializedVersion: 2
         x: 1600
@@ -15536,14 +15563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c3b746282a197850800000000000000
-      internalID: 6375155507262895043
+      spriteID: e004748da302bfb80800000000000000
+      internalID: -8360052846174453746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wurmhole_8
+      name: BackgroundWormhole_8
       rect:
         serializedVersion: 2
         x: 3200
@@ -15557,8 +15584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a1998952e0ca74c0800000000000000
-      internalID: -4288903616719646302
+      spriteID: 66bd4675e607d5db0800000000000000
+      internalID: -4801558008492139674
       vertices: []
       indices: 
       edges: []
