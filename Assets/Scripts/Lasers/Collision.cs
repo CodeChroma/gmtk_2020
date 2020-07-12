@@ -6,6 +6,8 @@ public class Collision : MonoBehaviour
 {
     public GameObject hitEffect;
 
+    private AudioSource source;
+
     /// <summary>
     /// Sent when an incoming collider makes contact with this object's
     /// collider (2D physics only).
@@ -14,6 +16,7 @@ public class Collision : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         Instantiate(hitEffect, transform.position, Quaternion.identity);
+        source.Play();
         Destroy(hitEffect, 5f);
         Destroy(gameObject);
     }
