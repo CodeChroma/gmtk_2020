@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 7268e0bbd636eab4a80d5597efc34a94
-TextureImporter:
-  internalIDToNameTable: []
-=======
-guid: 8d312c043fb404661b6244f22f522588
+guid: cfcc8123f15a345d58cee78ab25c7fe8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 484935225551943318
-    second: EnemyShip_0
+      213: -3300237305943243463
+    second: Blast_0
   - first:
-      213: 7601428365850401091
-    second: EnemyShip_1
+      213: 7680628674951567668
+    second: Blast_1
   - first:
-      213: -7180611461847456714
-    second: EnemyShip_2
-  - first:
-      213: -4184597736186416272
-    second: EnemyShip_3
->>>>>>> 3c0aeb12bbe03bb536c631b98f400fac6203f028
+      213: -4607981382771946950
+    second: Blast_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,11 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> 3c0aeb12bbe03bb536c631b98f400fac6203f028
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,11 +80,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -114,7 +96,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemyShip_0
+      name: Blast_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +110,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 696f812b406dab600800000000000000
-      internalID: 484935225551943318
+      spriteID: 935c2c8d7a33332d0800000000000000
+      internalID: -3300237305943243463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyShip_1
+      name: Blast_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -149,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 349571c13d2bd7960800000000000000
-      internalID: 7601428365850401091
+      spriteID: 439da2e0613179a60800000000000000
+      internalID: 7680628674951567668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyShip_2
+      name: Blast_2
       rect:
         serializedVersion: 2
         x: 0
@@ -170,34 +152,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 634eb728be7595c90800000000000000
-      internalID: -7180611461847456714
+      spriteID: a3ac344b8592d00c0800000000000000
+      internalID: -4607981382771946950
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: EnemyShip_3
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07374b6a7825de5c0800000000000000
-      internalID: -4184597736186416272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
->>>>>>> 3c0aeb12bbe03bb536c631b98f400fac6203f028
     outline: []
     physicsShape: []
     bones: []

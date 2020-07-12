@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 7268e0bbd636eab4a80d5597efc34a94
-TextureImporter:
-  internalIDToNameTable: []
-=======
-guid: 8d312c043fb404661b6244f22f522588
+guid: 1cca78eb3c3194a229cc5c0201ef69aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 484935225551943318
-    second: EnemyShip_0
+      213: -7956232200919130839
+    second: ShipSmoke_0
   - first:
-      213: 7601428365850401091
-    second: EnemyShip_1
+      213: 3048361513378825371
+    second: ShipSmoke_1
   - first:
-      213: -7180611461847456714
-    second: EnemyShip_2
+      213: -101382698376546380
+    second: ShipSmoke_2
   - first:
-      213: -4184597736186416272
-    second: EnemyShip_3
->>>>>>> 3c0aeb12bbe03bb536c631b98f400fac6203f028
+      213: 5924056235592066004
+    second: ShipSmoke_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,11 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> 3c0aeb12bbe03bb536c631b98f400fac6203f028
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,11 +83,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -114,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemyShip_0
+      name: ShipSmoke_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +113,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 696f812b406dab600800000000000000
-      internalID: 484935225551943318
+      spriteID: 92dd0b997f8c59190800000000000000
+      internalID: -7956232200919130839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyShip_1
+      name: ShipSmoke_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -149,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 349571c13d2bd7960800000000000000
-      internalID: 7601428365850401091
+      spriteID: b94caef35a4fd4a20800000000000000
+      internalID: 3048361513378825371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyShip_2
+      name: ShipSmoke_2
       rect:
         serializedVersion: 2
         x: 0
@@ -170,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 634eb728be7595c90800000000000000
-      internalID: -7180611461847456714
+      spriteID: 4b735e419f0d79ef0800000000000000
+      internalID: -101382698376546380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyShip_3
+      name: ShipSmoke_3
       rect:
         serializedVersion: 2
         x: 1600
@@ -191,13 +176,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07374b6a7825de5c0800000000000000
-      internalID: -4184597736186416272
+      spriteID: 4d327ef52c9763250800000000000000
+      internalID: 5924056235592066004
       vertices: []
       indices: 
       edges: []
       weights: []
->>>>>>> 3c0aeb12bbe03bb536c631b98f400fac6203f028
     outline: []
     physicsShape: []
     bones: []
